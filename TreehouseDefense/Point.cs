@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace TreehouseDefense
 {
-    class Map
+    class Point
     {
-        public readonly int Width;
-        public readonly int Height;
+        public readonly int X;
+        public readonly int Y;
 
-        public Map(int width, int height)
+        public Point(int x, int y)
         {
-            width = Width;
-            height = Height;
+            X = x;
+            Y = y;
         }
     }
 }
