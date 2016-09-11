@@ -28,9 +28,9 @@ namespace TreehouseDefense
 
                 Invader[] invaders =
                 {
-                    new Invader(path),
-                    new Invader(path),
-                    new Invader(path),
+                    new SheildedInvader(path),
+                    new FastInvader(path),
+                    new StrongInvader(path),
                     new Invader(path)
                 };
 
@@ -64,7 +64,7 @@ namespace TreehouseDefense
                 Console.WriteLine("Unhandled Exception: " + ex);
             }
 
-           // Console.ReadLine();
+           Console.ReadLine();
         }
     }
 }
