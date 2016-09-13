@@ -39,7 +39,7 @@ namespace TreehouseDefense
                     new SheildedInvader(path),
                     new FastInvader(path),
                     new StrongInvader(path),
-                    new Invader(path)
+                    new BasicInvader(path)
                 };
 
                 Tower[] towers =
